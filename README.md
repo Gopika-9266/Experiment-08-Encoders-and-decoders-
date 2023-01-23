@@ -62,10 +62,11 @@ D7 = X Y Z
 ### PROGRAM 
 /*
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Gopika R
+RegisterNumber: 22009266 
 */
 
+[ilovepdf_pages-to-jpg (12).zip](https://github.com/Gopika-9266/Experiment-08-Encoders-and-decoders-/files/10480206/ilovepdf_pages-to-jpg.12.zip)
 
 
 
