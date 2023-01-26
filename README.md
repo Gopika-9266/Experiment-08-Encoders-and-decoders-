@@ -132,4 +132,4 @@ RegisterNumber: 22009266
 
 
 ### RESULTS:
-      Thus the program to desing encoder and decoder is done.
+      Thus the program to design encoder and decoder is done.
