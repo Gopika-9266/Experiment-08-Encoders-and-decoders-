@@ -68,7 +68,7 @@ D7 = X Y Z
 
 ### PROGRAM:
 
-
+```
 module encoder(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
 input d0,d1,d2,d3,d4,d5,d6,d7;
 output a,b,c;
@@ -76,9 +76,10 @@ or(a,d4,d5,d6,d7);
 or(b,d2,d3,d6,d7);
 or(c,d1,d3,d5,d7);
 endmodule
+```
 
 
-
+```
 module decoder(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
 input a,b,c;
 output d0,d1,d2,d3,d4,d5,d6,d7;
@@ -91,14 +92,15 @@ assign d5 = (a&~b&c);
 assign d6 = (a&b&~c);
 assign d7 = (a&b&c);
 endmodule 
-
+```
 
 
 
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: Gopika R
+```
+Developed by: Gopika.R
 RegisterNumber: 22009266 
-
+```
 
 
 ### RTL LOGIC: 
@@ -120,7 +122,7 @@ RegisterNumber: 22009266
 ![213618754-b028929e-7372-4250-a245-8a84fd4b089b](https://user-images.githubusercontent.com/122762773/214759059-fb0fd25a-43aa-40d5-a259-fb4dd2a2ce2e.png)
 
 
-### TRUTH TABLE 
+### TRUTH TABLE:
 
 
 ![213618820-2a4e7b45-43b2-4776-9183-3c8ad21496c7](https://user-images.githubusercontent.com/122762773/214759113-02a8e405-572e-47d5-b187-6c68304493e8.png)
